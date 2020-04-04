@@ -48,7 +48,6 @@ class YTDLSource(discord.PCMVolumeTransformer):
 
         filename = data['url'] if stream else ytdl.prepare_filename(data)
         return cls(discord.FFmpegPCMAudio(filename, **ffmpeg_options, executable="ffmpeg-win64-static/bin/ffmpeg.exe"), data=data)
-        # dodaj ffmpeg.exe do PATH jak nie bedzie dzialac
 
 
 class Music(commands.Cog):
