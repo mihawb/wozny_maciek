@@ -46,4 +46,4 @@ async def widac(ctx):
 async def matura(ctx):
     await ctx.send(f"Do matury pozostało {int((1588575600 - int(time.time())) / 86400)} dni.")
 
-bot.run("NjkyNDMzNTc3MjcwMzEzMDAx.XnueVQ.rg9wDpbNYjW7EqJcaUXm4SmjeyI")
+bot.run("TOKEN")
