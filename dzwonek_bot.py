@@ -68,4 +68,4 @@ async def on_ready():
     print('------')
 
 bot.add_cog(Music(bot))
-bot.run('NjkyNDMzNTc3MjcwMzEzMDAx.XnueVQ.rg9wDpbNYjW7EqJcaUXm4SmjeyI')
+bot.run('TOKEN')
